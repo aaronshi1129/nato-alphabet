@@ -4,11 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NATO Phonetic Alphabet</title>
+    <title>Learn the NATO Phonetic Alphabet</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
         
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
         body {
             font-family: 'Poppins', sans-serif;
             background-image: url('background.jpg');
@@ -78,6 +89,7 @@
     </style>
 </head>
 <body>
+    <main>
     <div class="min-h-screen">
         <!-- Header -->
         <header class="bg-blue-600 text-white py-6">
@@ -157,11 +169,12 @@
                 </div>
             </div>
         </main>
-        
+    </main>
+
         <!-- Footer -->
         <footer class="bg-gray-800 text-white py-6">
             <div class="container mx-auto px-2 text-center">
-                <div class="text-center mt-6 text-indigo-200 text-sm flex justify-center items-center">
+                <div class="text-center text-indigo-200 text-sm flex justify-center items-center">
                     <p class="mr-2"><a href="https://www.aaronshi.cc" target="_blank" rel="noopener noreferrer" class="flex items-center hover:text-white transition duration-300">
                         Go to AaronShi.cc</a></p>
                     <span class="mx-2">|</span>
